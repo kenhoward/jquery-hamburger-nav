@@ -28,7 +28,7 @@ header {
   top: 0;
   right: 0;
   line-height: 45px;
-  padding: 0px 15px 0px 15px;
+  padding: 12px 15px 0px 15px;
   color: ##ecf0f1;
   border: 0;
   font-size: 1.4em;
@@ -89,13 +89,6 @@ header {
 .menu a:hover {
   text-decoration: none;
   color: white;
-}
-
-.glyphicon-home {
-  color: white;
-  font-size: 1.5em;
-  margin-top: 5px;
-  margin: 0 auto;
 }
 
 .sticky {
