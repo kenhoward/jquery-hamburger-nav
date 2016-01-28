@@ -20,6 +20,12 @@ jQuery(function($) {
   });
 /* //Alicia's Code */
 
+  function closeBurger() {
+    $(".menu").slideToggle("slow", function() {
+      $(".hamburger").show();
+    });
+  };
+
   $(".menu").hide();
   $(".hamburger").click(function() {
     $(".menu").slideToggle("slow", function() {
@@ -32,9 +38,7 @@ jQuery(function($) {
    $('html, body').animate({
      scrollTop: $('#destWCU').offset().top
    }, 500)
-   $(".menu").slideToggle("slow", function() {
-     $(".hamburger").show();
-   });
+   closeBurger();
  });
 
  $('#buttonI').click(function(e) {
@@ -42,9 +46,7 @@ jQuery(function($) {
    $('html, body').animate({
      scrollTop: $('#destI').offset().top
    }, 500)
-   $(".menu").slideToggle("slow", function() {
-     $(".hamburger").show();
-   });
+   closeBurger();
  });
 
  $('#buttonBAP').click(function(e) {
@@ -52,9 +54,7 @@ jQuery(function($) {
    $('html, body').animate({
      scrollTop: $('#destBAP').offset().top
    }, 500)
-   $(".menu").slideToggle("slow", function() {
-     $(".hamburger").show();
-   });
+   closeBurger();
  });
 
  $('#buttonTB').click(function(e) {
@@ -62,9 +62,7 @@ jQuery(function($) {
    $('html, body').animate({
      scrollTop: $('#destTB').offset().top
    }, 500)
-   $(".menu").slideToggle("slow", function() {
-     $(".hamburger").show();
-   });
+   closeBurger();
  });
 
  $('#buttonYNC').click(function(e) {
@@ -72,9 +70,7 @@ jQuery(function($) {
    $('html, body').animate({
      scrollTop: $('#destYNC').offset().top
    }, 500)
-   $(".menu").slideToggle("slow", function() {
-     $(".hamburger").show();
-   });
+   closeBurger();
  });
 
  $('#buttonYFRI').click(function(e) {
@@ -82,9 +78,7 @@ jQuery(function($) {
    $('html, body').animate({
      scrollTop: $('#destYFRI').offset().top
    }, 500)
-   $(".menu").slideToggle("slow", function() {
-     $(".hamburger").show();
-   });
+   closeBurger();
  });
 
 });
