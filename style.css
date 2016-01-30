@@ -3,12 +3,20 @@ body {
   margin: 0;
 }
 
+/*
 header {
   width: 100%;
   background: #c1272d;
   height: 50px;
   line-height: 50px;
-  /*position: fixed;*/
+  position: fixed;
+}*/
+
+.navHeader {
+  width: 100%;
+  background: #c1272d;
+  height: 50px;
+  line-height: 50px;
 }
 
 /* REMOVE */
@@ -17,7 +25,16 @@ header {
 }
 
 .color-change {
-  background-color: #2980b9;
+  background-color: #bdc3c7;
+}
+
+.color-alt {
+  background-color: #95a5a6;
+}
+
+.header-top {
+    /*line-height: 50px;*/
+    height: 50px;
 }
 
 /* /REMOVE */
@@ -57,7 +74,7 @@ header {
 
 .menu li {
   display: block;
-  padding: 15px 0 15px 0;
+  /*padding: 15px 0;*/
   color: #000;
   border-bottom: #7f8c8d 1px solid;
   font-size: x-large;
@@ -66,7 +83,7 @@ header {
 .menu li:hover {
   display: block;
   background: #ecf0f1;
-  padding: 15px 0 15px 0;
+  /*padding: 15px 0;*/
   border-bottom: #1d1f20 1px solid;
 }
 
